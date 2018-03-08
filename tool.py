@@ -1,10 +1,5 @@
-#coding=utf8
-
-import codecs
-
-import sys
-reload(sys)
-sys.setdefaultencoding('utf8') 
+#!/usr/bin/env Python
+# coding=utf-8
 
 from PIL import Image
 import os
@@ -130,7 +125,7 @@ def handle_photo():
             list_info[-1]['arr']['type'].append('image')
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
-    with codecs.open("../Yabea.github.io/photos/data.json", "w", "utf-8") as fp:
+    with open("../Yabea.github.io/photos/data.json", "utf-8") as fp:
         json.dump(final_dict, fp)
 
 def cut_photo():
