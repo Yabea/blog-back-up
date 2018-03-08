@@ -1,5 +1,7 @@
 #coding=utf8
 
+import codecs
+
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8') 
