@@ -2,7 +2,7 @@
 
 import sys
 reload(sys)
-sys.setdefaultencoding('gbk') 
+sys.setdefaultencoding('utf8') 
 
 from PIL import Image
 import os
