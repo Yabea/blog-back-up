@@ -12,7 +12,7 @@ import sys
 
 reload( sys )
 
-sys.setdefaultencoding('gbk')
+sys.setdefaultencoding('utf-8')
 
 # 定义压缩比，数值越大，压缩越小
 SIZE_normal = 1.0
